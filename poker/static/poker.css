@@ -1,0 +1,197 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: goldenrod;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.start-page {
+    background-image: url("start-background.png");
+}
+
+.game-page {
+    background-image: url("table-background.png");
+}
+
+#content {
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 2px 0;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 2px 0;
+    color: goldenrod;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 2px 0;
+    color: goldenrod;
+}
+
+p {
+    margin: 2px 0;
+    color: goldenrod;
+}
+
+form {
+    margin: 2px;
+    display: inline-block;
+}
+
+button {
+    background-color: gray;
+    color: maroon;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 2px solid goldenrod;
+    cursor: pointer;
+}
+
+input {
+    background-color: maroon;
+    color: aliceblue;
+    width: 80px;
+    font-size: 15px;
+    padding: 4px;
+}
+
+.card {
+    max-height: 85px;
+    width: auto;
+    margin: 0 3px;
+}
+
+.hands {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 35px;
+    width: 100%;
+}
+
+.player-hand {
+    text-align: center;
+}
+
+.game-page .player-hand .card {
+    max-height: 75px;
+}
+
+.game-page .player-hand h2 {
+    font-size: 18px;
+}
+
+.game-page .player-hand h3 {
+    font-size: 15px;
+}
+
+
+
+.deck-button {
+    position: relative;
+    width: 75px;
+    height: 105px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: goldenrod;
+}
+
+.deck-card {
+    position: absolute;
+    width: 65px;
+    height: auto;
+    left: 5px;
+    top: 5px;
+    border-radius: 5px;
+}
+
+.card1 {
+    transform: rotate(-5deg);
+}
+
+.card2 {
+    transform: rotate(3deg);
+    left: 8px;
+    top: 8px;
+}
+
+.card3 {
+    transform: rotate(0deg);
+    left: 11px;
+    top: 11px;
+}
+
+.deck-button span {
+    position: absolute;
+    bottom: -22px;
+    left: 16px;
+    font-size: 16px;
+    color: goldenrod;
+}
+
+.table-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.river-cards {
+    display: flex;
+    gap: 4px;
+}
+.deck-button {
+    position: relative;
+    width: 65px;
+    height: 90px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.deck-card {
+    position: absolute;
+    width: 60px;
+    left: 0;
+    top: 0;
+}
+
+.card1 {
+    transform: rotate(-6deg);
+}
+
+.card2 {
+    left: 4px;
+    top: 3px;
+    transform: rotate(3deg);
+}
+
+.card3 {
+    left: 8px;
+    top: 6px;
+}
